@@ -38,6 +38,7 @@ public class ScopeChecker {
     }
 
     public class InnerClass {
+        // if I replace public to private ScopeChecker can still reach it!
         public int varThree = 3;
 
         public InnerClass() {
