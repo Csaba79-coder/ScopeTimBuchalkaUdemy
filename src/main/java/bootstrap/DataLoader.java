@@ -20,5 +20,9 @@ public class DataLoader {
         innerClass.timesTwoUsesMethodFromMainClass();
 
         scopeInstance.useInner();
+
+        ScopeChecker.InnerClass inner = scopeInstance.new InnerClass();
+        System.out.println("In this case varThree is not accessible from here!!! -> if it has private access!");
+        System.out.println("VarThree can be reached if it is public access: " + inner.varThree);
     }
 }
