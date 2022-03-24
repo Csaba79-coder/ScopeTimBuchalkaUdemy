@@ -18,7 +18,7 @@ public class ScopeChecker {
 
     public void useInner() {
         InnerClass inner = new InnerClass();
-        System.out.println("ScopeChecker uses outer class variable " + inner.varThree);
+        System.out.println("ScopeChecker uses outer class variable (varThree) " + inner.varThree);
     }
 
     public int getPublicVar() {
