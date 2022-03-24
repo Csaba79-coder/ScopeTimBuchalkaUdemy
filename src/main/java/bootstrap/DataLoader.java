@@ -18,5 +18,7 @@ public class DataLoader {
         innerClass.usingThisKeyWordForVariable();
 
         innerClass.timesTwoUsesMethodFromMainClass();
+
+        scopeInstance.useInner();
     }
 }
