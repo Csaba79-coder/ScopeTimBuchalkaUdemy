@@ -45,5 +45,9 @@ public class ScopeChecker {
                 System.out.println(i + " times two is " + (i * privateVar));
             }
         }
+
+        public void usingThisKeyWordForVariable() {
+            System.out.println("privateVar from ScopeChecker " + ScopeChecker.this.privateVar);
+        }
     }
 }

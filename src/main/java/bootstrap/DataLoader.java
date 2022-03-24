@@ -15,5 +15,6 @@ public class DataLoader {
 
         ScopeChecker.InnerClass innerClass = scopeInstance.new InnerClass();
         innerClass.timesTwo();
+        innerClass.usingThisKeyWordForVariable();
     }
 }
