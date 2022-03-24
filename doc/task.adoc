@@ -40,4 +40,4 @@ Protected access gives the subclass a chance to use the helper method or variabl
 
 '''
 
-If a Class has a private variable inner class can reach and see it!
+If a Class has a private variable inner class can reach and see it! and outer class can see the inner class private variable as well, so it works both ways!
