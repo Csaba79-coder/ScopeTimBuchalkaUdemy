@@ -14,3 +14,26 @@ class level
 methods and classes has also scopes
 
 If innerClass exists in a Class, first uses the innerClass variables, and then the main class variables!
+
+
+Access modifiers:
+
+- public
+- protected
+- default - no keyword required (so-called package private)
+- private
+
+https://www.geeksforgeeks.org/access-modifiers-java/
+
+image::image-2022-03-24-18-24-57-441.png[]
+
+'''
+
+Protected:
+
+When a variable, method or constructor that are declared protected in a superclass can be accessed only by the subclasses in other package or any class within the package of the protected members' class.
+
+The protected access modifier cannot be applied to class and interfaces. Methods, fields can be declared protected, however methods and fields in a interface cannot be declared protected.
+
+Protected access gives the subclass a chance to use the helper method or variable, while preventing a non-related class from trying to use it.
+
