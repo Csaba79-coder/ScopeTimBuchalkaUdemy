@@ -37,3 +37,7 @@ The protected access modifier cannot be applied to class and interfaces. Methods
 
 Protected access gives the subclass a chance to use the helper method or variable, while preventing a non-related class from trying to use it.
 
+
+'''
+
+If a Class has a private variable inner class can reach and see it!
