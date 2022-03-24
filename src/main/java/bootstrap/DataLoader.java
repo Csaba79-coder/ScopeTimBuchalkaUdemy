@@ -12,5 +12,8 @@ public class DataLoader {
         System.out.println(privateVar);
 
         scopeInstance.timesTwo();
+
+        ScopeChecker.InnerClass innerClass = scopeInstance.new InnerClass();
+        innerClass.timesTwo();
     }
 }

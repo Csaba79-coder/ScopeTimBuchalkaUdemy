@@ -1,3 +1,16 @@
 = Scope
 
 Scope refers to the visibility in a class, member, or variable!
+
+'''
+
+Variable's levels of scope (from inside to outside):
+for loop
+method
+class level
+
+'''
+
+methods and classes has also scopes
+
+If innerClass exists in a Class, first uses the innerClass variables, and then the main class variables!

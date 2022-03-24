@@ -31,4 +31,19 @@ public class ScopeChecker {
     public void setPrivateVar(int privateVar) {
         this.privateVar = privateVar;
     }
+
+    public class InnerClass {
+        public int privateVar = 3;
+
+        public InnerClass() {
+            System.out.println("InnerClass created, private var is " + privateVar);
+        }
+
+        public void timesTwo() {
+            int privateVar = 2; // if I comment this out, looks for the next level ... that is the class varialbe, and works!
+            for (int i = 0; i < 10; i++) {
+                System.out.println(i + " times two is " + (i * privateVar));
+            }
+        }
+    }
 }
